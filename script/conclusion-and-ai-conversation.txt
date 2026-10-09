@@ -1,0 +1,6 @@
+My conclusion:
+
+Increasing QP generally results in a smaller file size and higher encoding FPS. There are some small variations between individual QP values, but the overall trends are still clear. I think the important thing is to look at the overall trend rather than expecting the values to change consistently at every single QP step.
+
+
+AI conversation link : https://chatgpt.com/share/6ac80bc1-49c8-83eb-b5f4-ab480d5866fd
