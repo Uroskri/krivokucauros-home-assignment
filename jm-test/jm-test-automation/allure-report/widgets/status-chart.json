@@ -1,0 +1,1 @@
+[{"uid":"3b861118e2a68683","name":"jpegMiniApplicationIsLaunched()","time":{"start":1791459654506,"stop":1791459660787,"duration":6281},"status":"passed","severity":"normal"},{"uid":"ed43c892c965f65d","name":"User can switch between Minime Mode and Regular Mode","time":{"start":1791459660932,"stop":1791459678856,"duration":17924},"status":"passed","severity":"normal"}]
