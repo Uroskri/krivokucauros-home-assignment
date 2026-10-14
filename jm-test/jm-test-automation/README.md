@@ -30,13 +30,13 @@ The configuration includes:
 Start WinAppDriver in a separate PowerShell window (run as Administrator):
 
 ```powershell
-& "C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe" 4725
+& "C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe" 4723
 ```
 
 Start Appium in another PowerShell window:
 
 ```powershell
-appium --address 127.0.0.1 --port 4723
+appium --address 127.0.0.1 --port 4725
 ```
 
 Keep both server windows open while running the tests. The ports must match the URLs configured in `config.properties`.
