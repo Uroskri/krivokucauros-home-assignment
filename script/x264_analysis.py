@@ -23,11 +23,14 @@ with open(csv_file_name, "w", newline="") as csv_file:
     # CSV header
     writer.writerow(["QP", "FileSizeKB", "EncodingFPS"])
 
+    output_dir = "output_264_files"
+    os.makedirs(output_dir, exist_ok=True)
+
     for qp in range(52):
 
         print(f"\nRunning QP {qp}...")
 
-        output_file = f"output_qp{qp}.264"
+        output_file = os.path.join(output_dir, f"output_qp{qp}.264")
 
         command = [
             x264_path,
